@@ -1,0 +1,29 @@
+body {
+	background: #f5f5fc;
+}
+
+.container {
+	min-height: 76vh;
+}
+
+.profile-image {
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.profile-image img {
+	width: 200px;
+	height: 200px;
+	transform: translate(-18%, -13%);
+}
+
+
+@media (min-width: 992px){
+
+.container .part {
+	width: 85%;
+	margin: auto;
+}
+
+}

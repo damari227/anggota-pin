@@ -1,0 +1,42 @@
+body {
+	background: #f5f5fc;
+}
+
+.scroll {
+	overflow: auto;
+	max-height: 400px;
+}
+
+form {
+	width: 300px;
+}
+
+.table {
+	width: 1300px;
+}
+
+.table thead th:nth-child(1) {
+	width: 80px;
+}
+
+.table thead th:nth-child(6) {
+	width: 230px;
+}
+
+
+
+@media (min-width: 992px){
+
+.container .part:nth-child(2){
+	max-height: 600px;
+}
+
+.container .part:nth-child(2) .row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+} 
+
+
+
+}

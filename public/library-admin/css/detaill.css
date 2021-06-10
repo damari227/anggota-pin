@@ -1,0 +1,53 @@
+body {
+	background-color: #f5f5fc;
+}
+
+.profile-image {
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.profile-image img {
+	transform: translateX(-31%);
+}
+
+.alert-warning {
+	order: 5;
+}
+
+table {
+	width: 100%;
+}
+
+thead td {
+	cursor: pointer;
+}
+
+tbody td {
+	padding: 5px;
+	font-size: 13px;
+}
+
+
+@media (min-width: 992px){
+
+.profile-image img {
+	transform: translateX(-30%);
+}
+
+.panel {
+	display: grid;
+	grid-template-columns: 160px 1fr;
+}
+
+table {
+   width: 100%;
+}
+
+tbody td {
+	padding: 8px;
+	font-size: 15px;
+}
+
+}

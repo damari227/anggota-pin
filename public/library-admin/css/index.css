@@ -1,0 +1,93 @@
+body {
+	background: #f0f0fb;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.container .part:nth-child(1) form {
+	width: 300px;
+	position: relative;
+}
+
+.panel {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.container .part .row {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.container .part .row .card .profile-image {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	background: #000;
+}
+
+.container .part .row .card .profile-image img {
+	width: 140px;
+	transform: translate(-15%, -10%);
+}
+
+.container .part .row .card .col a {
+	position: absolute;
+	right: 2px;
+	bottom: -2px;
+	font-size: 13px;
+}
+
+
+
+@media (min-width: 768px){
+.stats {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 2fr;
+}
+
+.panel {
+	grid-template-columns: 1fr;
+}
+
+.container .part .row {
+	grid-template-columns: 1fr 1fr;
+}
+}
+
+
+
+@media (min-width: 992px){
+
+.container .part:nth-child(1) form {
+	position: static;
+}
+
+.container .part:nth-child(2) .scroll {
+	max-height: 200px;
+}
+
+.container .part .row {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.panel {
+	grid-template-columns: 1fr 1fr;
+}
+
+.panel-subtitle {
+	color: rgb(0, 0, 0, 0.5);
+}
+
+}

@@ -1,0 +1,22 @@
+body {
+	background: #f5f5fc;
+}
+
+.jumbotron {
+	height: 300px;
+}
+
+form {
+	position: absolute;
+	top: 220px;
+	width: 100%;
+}
+
+
+@media (min-width: 992px){
+
+form .form-group {
+	width: 600px;
+	margin: auto;
+}
+}

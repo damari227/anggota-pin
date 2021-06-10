@@ -1,0 +1,46 @@
+body {
+  background: #f6f6fc;
+}
+
+nav .menu-toggle span {
+  background: #fff;
+}
+
+.jumbotron {
+  height: 300px;
+}
+
+form {
+  width: 90%;
+  margin-left: 5%;
+  position: absolute;
+  top: 100px;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+}
+
+
+@media (min-width: 768px){
+
+form {
+  width: 50%;
+}
+
+}
+
+
+
+@media (min-width: 992px){
+
+.jumbotron {
+  height: 300px;
+}
+
+form {
+  width: 400px;
+  position: absolute;
+  right: 40px;
+  top: 110px;
+}
+
+}
